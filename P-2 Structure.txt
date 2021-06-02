@@ -1,0 +1,25 @@
+using System;
+
+namespace Day_5
+{
+	public struct Student
+	{
+		public int Id;
+		public string Name;
+		public int Marks;
+	}
+	
+	public class Program
+	{
+		public static void Main()
+		{
+			Student s;
+			s.Id=101;
+			s.Name="Rahul";
+			s.Marks=88;
+			Console.WriteLine("Student Id:" +s.Id+"\n Student Name:" +s.Name+"\n Marks:"+s.Marks);
+			Console.ReadLine();
+		}
+	}
+}
+ 
